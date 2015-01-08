@@ -6,6 +6,21 @@ link_with 'iOS-mvvm'
 
 pod 'CocoaLumberjack', '1.9.2'
 
+pod 'AFNetworking', '2.5'
+
+pod 'MBProgressHUD', '0.9'
+
+pod 'PureLayout', '2.0.3'
+
+pod 'Mantle', '~> 1.5'
+
+pod 'ReactiveCocoa', '2.3.1'
+
+pod 'ReactiveViewModel', '0.2'
+
+pod 'Overcoat/ReactiveCocoa', '2.1'
+
+pod 'AFNetworkActivityLogger', '2.0.3'
 
 #ignore warnings from pods
 inhibit_all_warnings!

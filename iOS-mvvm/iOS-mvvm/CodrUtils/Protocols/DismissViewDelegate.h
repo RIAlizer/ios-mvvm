@@ -3,7 +3,7 @@
 //  Codr Ltd
 //
 //  Created by Andrea Gonteri on 24/09/2014.
-//  Copyright (c) 2014 Codr Ltd Ltd. All rights reserved.
+//  Copyright (c) 2014 Codr Ltd. All rights reserved.
 //
 
 

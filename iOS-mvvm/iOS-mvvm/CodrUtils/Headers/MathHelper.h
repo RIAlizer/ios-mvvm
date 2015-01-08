@@ -2,8 +2,8 @@
 //  MathHelper.h
 //  Codr Ltd
 //
-//  Created by Tai Heng on 08/10/2014.
-//  Copyright (c) 2014 Codr Ltd Ltd. All rights reserved.
+//  Created by Andrea Gonteri on 08/10/2014.
+//  Copyright (c) 2014 Codr Ltd. All rights reserved.
 //
 
 #pragma once
