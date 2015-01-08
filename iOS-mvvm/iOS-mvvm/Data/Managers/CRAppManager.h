@@ -2,8 +2,8 @@
 //  CRAppManager.h
 //  Codr Ltd
 //
-//  Created by Andrea Gonteri iWoo on 24/09/2014.
-//  Copyright (c) 2014 Iwoo Ltd. All rights reserved.
+//  Created by andrea gonteri on 08/01/15.
+//  Copyright (c) 2015 CODR Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

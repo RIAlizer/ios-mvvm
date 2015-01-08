@@ -3,7 +3,7 @@
 //  Codr Ltd
 //
 //  Created by Andrea Gonteri on 24/09/2014.
-//  Copyright (c) 2014 Codr Ltd Ltd. All rights reserved.
+//  Copyright (c) 2014 Codr Ltd. All rights reserved.
 //
 
 #pragma once
@@ -109,7 +109,7 @@ static const int ddLogLevel = LOG_LEVEL_WARN;
 #define DEFAULT_FADE_OUT_DURATION 0.3f
 
 //timeInterval during fake request
-#define IWAPIREQUEST_STUB_FAKE_TIMEOUT_SLEEP 2//seconds
+#define CRAPIRequest_STUB_FAKE_TIMEOUT_SLEEP 2//seconds
 
 //timeInterval during splash view
 
@@ -128,8 +128,8 @@ static const int ddLogLevel = LOG_LEVEL_WARN;
 //typedef void(^SuccessBlock)(id result);
 //typedef void(^FailureBlock)(NSError *error);
 
-static CGFloat const kIWPasswordMinLength = 8;
-static CGFloat const kIWPasswordMaxLength = 30;
+static CGFloat const kCRPasswordMinLength = 8;
+static CGFloat const kCRPasswordMaxLength = 30;
 //-------------------------------------------------------
 
 typedef void(^IWSuccessBlock)(id result);

@@ -2,14 +2,17 @@
 //  CRAppManager.m
 //  Codr Ltd
 //
-//  Created by Andrea Gonteri iWoo on 24/09/2014.
-//  Copyright (c) 2014 Iwoo Ltd. All rights reserved.
+//  Created by andrea gonteri on 08/01/15.
+//  Copyright (c) 2015 CODR Ltd. All rights reserved.
 //
 
 #import "CRAppManager.h"
 
 #import "DDASLLogger.h"
 #import "DDTTYLogger.h"
+
+#import "AFNetworkActivityLogger.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 @interface CRAppManager ()
 
@@ -29,8 +32,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(CRAppManager);
     
     [self initLogger];
     
-//    [self initNetworking];
-    
+    [self initNetworking];
     
     DDLogVerbose(@"CRAppManager initAppData");
     
@@ -53,17 +55,16 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(CRAppManager);
 
 - (void)initNetworking
 {
-//    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
-//    
-//    
-//    //AFNetworkActivityLogger
-//    [[AFNetworkActivityLogger sharedLogger] startLogging];
-//    
-//#if DEBUG
-//    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelDebug];
-//#else
-//    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelOff];
-//#endif
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    
+    //AFNetworkActivityLogger
+    [[AFNetworkActivityLogger sharedLogger] startLogging];
+    
+#if DEBUG
+    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelDebug];
+#else
+    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelOff];
+#endif
     
 }
 
