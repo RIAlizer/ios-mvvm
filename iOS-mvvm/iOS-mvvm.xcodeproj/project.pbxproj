@@ -19,6 +19,15 @@
 		3A53AB301A5EB2CE00F66CF8 /* CustomUIApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A53AB231A5EB2CE00F66CF8 /* CustomUIApplication.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3A53AB381A5EB7B500F66CF8 /* CRAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A53AB371A5EB7B500F66CF8 /* CRAppManager.m */; };
 		3A53AB3A1A5EB9D700F66CF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A53AB391A5EB9D700F66CF8 /* Default-568h@2x.png */; };
+		3AC1E01D1A5EDF4600DA535D /* CRAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E0121A5EDF4600DA535D /* CRAPIRequest.m */; };
+		3AC1E01E1A5EDF4600DA535D /* CRHTTPSessionManager+ReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E0151A5EDF4600DA535D /* CRHTTPSessionManager+ReactiveCocoa.m */; };
+		3AC1E01F1A5EDF4600DA535D /* CRHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E0171A5EDF4600DA535D /* CRHTTPSessionManager.m */; };
+		3AC1E0201A5EDF4600DA535D /* CRBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E01A1A5EDF4600DA535D /* CRBaseModel.m */; };
+		3AC1E0211A5EDF4600DA535D /* CRShutterStockImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E01C1A5EDF4600DA535D /* CRShutterStockImage.m */; };
+		3AC1E0251A5EDF9E00DA535D /* CRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E0241A5EDF9E00DA535D /* CRBaseViewController.m */; };
+		3AC1E0321A5EE67300DA535D /* CRListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E02C1A5EE67300DA535D /* CRListViewController.m */; };
+		3AC1E0331A5EE67300DA535D /* CRListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E02E1A5EE67300DA535D /* CRListViewModel.m */; };
+		3AC1E0341A5EE67300DA535D /* CRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1E0311A5EE67300DA535D /* CRMainViewController.m */; };
 		F03271F250DE766999C6CC1F /* libPods-iOS-mvvmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1477EB38BA4892A9400D52F7 /* libPods-iOS-mvvmTests.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +73,25 @@
 		3A53AB361A5EB7B500F66CF8 /* CRAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAppManager.h; sourceTree = "<group>"; };
 		3A53AB371A5EB7B500F66CF8 /* CRAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAppManager.m; sourceTree = "<group>"; };
 		3A53AB391A5EB9D700F66CF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3AC1E0101A5EDF4600DA535D /* CRAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAPIConstants.h; sourceTree = "<group>"; };
+		3AC1E0111A5EDF4600DA535D /* CRAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAPIRequest.h; sourceTree = "<group>"; };
+		3AC1E0121A5EDF4600DA535D /* CRAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAPIRequest.m; sourceTree = "<group>"; };
+		3AC1E0141A5EDF4600DA535D /* CRHTTPSessionManager+ReactiveCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CRHTTPSessionManager+ReactiveCocoa.h"; sourceTree = "<group>"; };
+		3AC1E0151A5EDF4600DA535D /* CRHTTPSessionManager+ReactiveCocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CRHTTPSessionManager+ReactiveCocoa.m"; sourceTree = "<group>"; };
+		3AC1E0161A5EDF4600DA535D /* CRHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHTTPSessionManager.h; sourceTree = "<group>"; };
+		3AC1E0171A5EDF4600DA535D /* CRHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHTTPSessionManager.m; sourceTree = "<group>"; };
+		3AC1E0191A5EDF4600DA535D /* CRBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBaseModel.h; sourceTree = "<group>"; };
+		3AC1E01A1A5EDF4600DA535D /* CRBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBaseModel.m; sourceTree = "<group>"; };
+		3AC1E01B1A5EDF4600DA535D /* CRShutterStockImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRShutterStockImage.h; sourceTree = "<group>"; };
+		3AC1E01C1A5EDF4600DA535D /* CRShutterStockImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRShutterStockImage.m; sourceTree = "<group>"; };
+		3AC1E0231A5EDF9E00DA535D /* CRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBaseViewController.h; sourceTree = "<group>"; };
+		3AC1E0241A5EDF9E00DA535D /* CRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBaseViewController.m; sourceTree = "<group>"; };
+		3AC1E02B1A5EE67300DA535D /* CRListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRListViewController.h; sourceTree = "<group>"; };
+		3AC1E02C1A5EE67300DA535D /* CRListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRListViewController.m; sourceTree = "<group>"; };
+		3AC1E02D1A5EE67300DA535D /* CRListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRListViewModel.h; sourceTree = "<group>"; };
+		3AC1E02E1A5EE67300DA535D /* CRListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRListViewModel.m; sourceTree = "<group>"; };
+		3AC1E0301A5EE67300DA535D /* CRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMainViewController.h; sourceTree = "<group>"; };
+		3AC1E0311A5EE67300DA535D /* CRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMainViewController.m; sourceTree = "<group>"; };
 		5BF398127ED339D39FBD8B9E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7235970B2FD1982CBE020F87 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7738B0FF6139D9937ED4B1CD /* Pods-iOS-mvvmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-mvvmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-mvvmTests/Pods-iOS-mvvmTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +142,8 @@
 		3A53AAD51A5EB0B800F66CF8 /* iOS-mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				3AC1E0261A5EE0AD00DA535D /* Screens */,
+				3AC1E0221A5EDF8700DA535D /* UIComponents */,
 				3A53AB341A5EB7B500F66CF8 /* Data */,
 				3A53AAFC1A5EB2CE00F66CF8 /* CodrUtils */,
 				3A53AADA1A5EB0B800F66CF8 /* AppDelegate.h */,
@@ -241,6 +271,8 @@
 		3A53AB341A5EB7B500F66CF8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3AC1E00F1A5EDF4600DA535D /* API */,
+				3AC1E0181A5EDF4600DA535D /* Models */,
 				3A53AB351A5EB7B500F66CF8 /* Managers */,
 			);
 			path = Data;
@@ -253,6 +285,77 @@
 				3A53AB371A5EB7B500F66CF8 /* CRAppManager.m */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		3AC1E00F1A5EDF4600DA535D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1E0101A5EDF4600DA535D /* CRAPIConstants.h */,
+				3AC1E0111A5EDF4600DA535D /* CRAPIRequest.h */,
+				3AC1E0121A5EDF4600DA535D /* CRAPIRequest.m */,
+				3AC1E0131A5EDF4600DA535D /* SessionManager */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3AC1E0131A5EDF4600DA535D /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1E0141A5EDF4600DA535D /* CRHTTPSessionManager+ReactiveCocoa.h */,
+				3AC1E0151A5EDF4600DA535D /* CRHTTPSessionManager+ReactiveCocoa.m */,
+				3AC1E0161A5EDF4600DA535D /* CRHTTPSessionManager.h */,
+				3AC1E0171A5EDF4600DA535D /* CRHTTPSessionManager.m */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		3AC1E0181A5EDF4600DA535D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1E0191A5EDF4600DA535D /* CRBaseModel.h */,
+				3AC1E01A1A5EDF4600DA535D /* CRBaseModel.m */,
+				3AC1E01B1A5EDF4600DA535D /* CRShutterStockImage.h */,
+				3AC1E01C1A5EDF4600DA535D /* CRShutterStockImage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AC1E0221A5EDF8700DA535D /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1E0231A5EDF9E00DA535D /* CRBaseViewController.h */,
+				3AC1E0241A5EDF9E00DA535D /* CRBaseViewController.m */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		3AC1E0261A5EE0AD00DA535D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1E02A1A5EE67300DA535D /* ListView */,
+				3AC1E02F1A5EE67300DA535D /* MainView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3AC1E02A1A5EE67300DA535D /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1E02B1A5EE67300DA535D /* CRListViewController.h */,
+				3AC1E02C1A5EE67300DA535D /* CRListViewController.m */,
+				3AC1E02D1A5EE67300DA535D /* CRListViewModel.h */,
+				3AC1E02E1A5EE67300DA535D /* CRListViewModel.m */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		3AC1E02F1A5EE67300DA535D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1E0301A5EE67300DA535D /* CRMainViewController.h */,
+				3AC1E0311A5EE67300DA535D /* CRMainViewController.m */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		42A772EB8E0D1276D20BDF2A /* Frameworks */ = {
@@ -442,11 +545,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A53AB301A5EB2CE00F66CF8 /* CustomUIApplication.mm in Sources */,
+				3AC1E0341A5EE67300DA535D /* CRMainViewController.m in Sources */,
 				3A53AADC1A5EB0B800F66CF8 /* AppDelegate.m in Sources */,
+				3AC1E0251A5EDF9E00DA535D /* CRBaseViewController.m in Sources */,
+				3AC1E01F1A5EDF4600DA535D /* CRHTTPSessionManager.m in Sources */,
 				3A53AB2F1A5EB2CE00F66CF8 /* LoggingAssertionHandler.m in Sources */,
+				3AC1E0321A5EE67300DA535D /* CRListViewController.m in Sources */,
+				3AC1E0211A5EDF4600DA535D /* CRShutterStockImage.m in Sources */,
 				3A53AB291A5EB2CE00F66CF8 /* NSString+LoremIpsum.m in Sources */,
 				3A53AB2B1A5EB2CE00F66CF8 /* UIColor+Hex.m in Sources */,
+				3AC1E0331A5EE67300DA535D /* CRListViewModel.m in Sources */,
+				3AC1E01D1A5EDF4600DA535D /* CRAPIRequest.m in Sources */,
+				3AC1E01E1A5EDF4600DA535D /* CRHTTPSessionManager+ReactiveCocoa.m in Sources */,
 				3A53AB2C1A5EB2CE00F66CF8 /* UIImage+Utils.m in Sources */,
+				3AC1E0201A5EDF4600DA535D /* CRBaseModel.m in Sources */,
 				3A53AAD91A5EB0B800F66CF8 /* main.m in Sources */,
 				3A53AB381A5EB7B500F66CF8 /* CRAppManager.m in Sources */,
 			);

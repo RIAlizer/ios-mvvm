@@ -12,11 +12,7 @@
 #import "DevDefines.h"
 
 //Lumberjack Log Level
-#if DEBUG
 static const int ddLogLevel = LOG_LEVEL_ALL;
-#else
-static const int ddLogLevel = LOG_LEVEL_WARN;
-#endif
 
 //MACROS defined in Target Settings
 #ifndef DEBUG_USING_STUB_REQUEST
